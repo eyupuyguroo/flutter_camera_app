@@ -1,0 +1,46 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d 2VN5T18319000402 --track-widget-creation --start-paused
+
+## exception
+
+SocketException: SocketException: Write failed (OS Error: Boru kapatılıyor.
+, errno = 232), port = 0
+
+```
+null```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, v1.7.8+hotfix.4, on Microsoft Windows [Version 10.0.17134.885], locale tr-TR)
+    • Flutter version 1.7.8+hotfix.4 at C:\Program Files\flutter
+    • Framework revision 20e59316b8 (6 weeks ago), 2019-07-18 20:04:33 -0700
+    • Engine revision fee001c93f
+    • Dart version 2.4.0
+
+[!] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at C:\Users\Lenovo\AppData\Local\Android\sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-28, build-tools 28.0.3
+    • Java binary at: C:\Users\Lenovo\Downloads\android-studio-ide-182.5035453-windows\android-studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1248-b01)
+    ! Some Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
+
+[!] Android Studio (version 3.3)
+    • Android Studio at C:\Users\Lenovo\Downloads\android-studio-ide-182.5035453-windows\android-studio
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1248-b01)
+
+[✓] VS Code (version 1.37.1)
+    • VS Code at C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.3.0
+
+[✓] Connected device (1 available)
+    • RNE L01 • 2VN5T18319000402 • android-arm64 • Android 8.0.0 (API 26)
+
+! Doctor found issues in 2 categories.
+```
